@@ -22,6 +22,13 @@ dependencies {
 	implementation 'de.codecentric:spring-boot-admin-starter-server'
 	implementation 'de.codecentric:spring-boot-admin-server-ui'
 //	compile 'de.codecentric:spring-boot-admin-server-ui'
+
+
+	compile('org.springframework.boot:spring-boot-starter-mail')
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	//compile 'com.squareup.okhttp3:okhttp:3.8.0'
+
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'

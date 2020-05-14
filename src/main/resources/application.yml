@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ServiceAdmin
+  boot:
+    admin:
+      notify:
+        line:
+          enabled: true
+          channelSecret: '8952caf718178012077f2818132631a8'
+          channelToken: 'Bg9/bLcAezxKO7h7j0cSc/k+B/66hroLSmDaZ1tKmn8u3ABom1y3TCIUTMvaBm7y6EpsM1HHE2WlKCvmOrUn5linbTHk7HRMF8o5x9iQefdXkY3VztMb+AqOknwpjmJB80ME40HmOF0u2JBVBnu4kAdB04t89/1O/w1cDnyilFU='
+          to: 'Ub3f48995f98b3a4a323bb7f4d3ca6158' #// Your user ID
